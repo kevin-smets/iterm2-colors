@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.4.1
+3 info using node@v0.12.7
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec { raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/kevin/Development/git/iterm2-colors',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/kevin/.npm/iterm2-colors/1.0.2/package.tgz not in flight; packing
+9 info lifecycle iterm2-colors@1.0.2~prepublish: iterm2-colors@1.0.2
+10 silly lifecycle iterm2-colors@1.0.2~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/kevin/.npm/iterm2-colors/1.0.2/package.tgz',
+11 verbose tar pack   '/Users/kevin/Development/git/iterm2-colors' ]
+12 verbose tarball /Users/kevin/.npm/iterm2-colors/1.0.2/package.tgz
+13 verbose folder /Users/kevin/Development/git/iterm2-colors
+14 verbose addLocalTarball adding from inside cache /Users/kevin/.npm/iterm2-colors/1.0.2/package.tgz
+15 silly cache afterAdd iterm2-colors@1.0.2
+16 verbose afterAdd /Users/kevin/.npm/iterm2-colors/1.0.2/package/package.json not in flight; writing
+17 verbose afterAdd /Users/kevin/.npm/iterm2-colors/1.0.2/package/package.json written
+18 silly publish { name: 'iterm2-colors',
+18 silly publish   version: '1.0.2',
+18 silly publish   description: 'iTerm2 colors as JSON, Sass, Scss, Stylus and Less',
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/kevin-smets/iterm2-colors.git' },
+18 silly publish   keywords:
+18 silly publish    [ 'iTerm2',
+18 silly publish      'color',
+18 silly publish      'variables',
+18 silly publish      'json',
+18 silly publish      'sass',
+18 silly publish      'scss',
+18 silly publish      'stylus',
+18 silly publish      'less' ],
+18 silly publish   author: { name: 'Kevin Smets' },
+18 silly publish   license: 'ISC',
+18 silly publish   bugs: { url: 'https://github.com/kevin-smets/iterm2-colors-converter/issues' },
+18 silly publish   homepage: 'https://github.com/kevin-smets/iterm2-colors#readme',
+18 silly publish   readme: '# iterm2-colors\niTerm2 colors as JSON, Sass, Scss, Stylus and Less\n\n## Install\n\n```\nnpm i iterm2-colors\n```\n\nor as dev dependency:\n\n```\nnpm i -D iterm2-colors\n```\n\n## Bugs?\n\nBugs should be logged over at [kevin-smets/iterm2-colors-converter](https://github.com/kevin-smets/iterm2-colors-converter)\n\n\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: 'a5bd6782bbc92c731a97676340352a6e0502c364',
+18 silly publish   _id: 'iterm2-colors@1.0.2',
+18 silly publish   scripts: {},
+18 silly publish   _shasum: 'e16a0ad9d9c03e57e6ab22af938e02cc265e49f5',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name iterm2-colors
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/iterm2-colors
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /Users/kevin/.npm/iterm2-colors/1.0.2/package.tgz
+26 verbose request uri https://registry.npmjs.org/iterm2-colors
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 11:04:47 PM
+29 verbose request using bearer token for auth
+30 verbose request id 55de64680ce71cd3
+31 http request PUT https://registry.npmjs.org/iterm2-colors
+32 http 403 https://registry.npmjs.org/iterm2-colors
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=60',
+33 verbose headers   'content-length': '95',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Tue, 17 Nov 2015 22:04:49 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-lcy1126-LCY',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1447797887.773910,VS0,VE1878' }
+34 verbose request invalidating /Users/kevin/.npm/registry.npmjs.org/iterm2-colors on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: "You cannot publish over the previously published version 1.0.2." : iterm2-colors
+36 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+36 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+36 verbose stack     at Request.emit (events.js:110:17)
+36 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+36 verbose stack     at Request.emit (events.js:129:20)
+36 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+36 verbose stack     at IncomingMessage.emit (events.js:129:20)
+36 verbose stack     at _stream_readable.js:908:16
+37 verbose statusCode 403
+38 verbose pkgid iterm2-colors
+39 verbose cwd /Users/kevin/Development/git/iterm2-colors
+40 error Darwin 15.0.0
+41 error argv "node" "/usr/local/bin/npm" "publish"
+42 error node v0.12.7
+43 error npm  v3.4.1
+44 error code E403
+45 error "You cannot publish over the previously published version 1.0.2." : iterm2-colors
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]

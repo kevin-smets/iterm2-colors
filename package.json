@@ -1,6 +1,6 @@
 {
   "name": "iterm2-colors",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "iTerm2 colors as JSON, Sass, Scss, Stylus and Less",
   "repository": {
     "type": "git",
