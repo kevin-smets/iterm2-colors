@@ -1,0 +1,22 @@
+{
+  "background-color": "#0D1926",
+  "foreground-color": "#D9E6F2",
+  "cursor-color": "#D9E6F2",
+  "cursor-text-color": "#0D1926",
+  "ansi-0-color": "#000000",
+  "ansi-8-color": "#262626",
+  "ansi-1-color": "#B87A7A",
+  "ansi-9-color": "#DBBDBD",
+  "ansi-2-color": "#7AB87A",
+  "ansi-10-color": "#BDDBBD",
+  "ansi-3-color": "#B8B87A",
+  "ansi-11-color": "#DBDBBD",
+  "ansi-4-color": "#7A7AB8",
+  "ansi-12-color": "#BDBDDB",
+  "ansi-5-color": "#B87AB8",
+  "ansi-13-color": "#DBBDDB",
+  "ansi-6-color": "#7AB8B8",
+  "ansi-14-color": "#BDDBDB",
+  "ansi-7-color": "#D9D9D9",
+  "ansi-15-color": "#FFFFFF"
+}
