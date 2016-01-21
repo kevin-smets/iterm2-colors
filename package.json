@@ -1,6 +1,6 @@
 {
   "name": "iterm2-colors",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "iTerm2 colors as JSON, Sass, Scss, Stylus and Less",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "less"
   ],
   "author": "Kevin Smets",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kevin-smets/iterm2-colors-converter/issues"
   },
