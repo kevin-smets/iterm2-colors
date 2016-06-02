@@ -5,10 +5,10 @@ iTerm2 colors as JSON, Sass, Scss, Stylus and Less
 ## Install
 
 ```
-npm i iterm2-colors
+npm i -S iterm2-colors
 ```
 
-or as dev dependency:
+or (probably) as dev dependency:
 
 ```
 npm i -D iterm2-colors
